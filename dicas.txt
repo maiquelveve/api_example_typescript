@@ -1,0 +1,7 @@
+NODE INIT normal
+-> yarn tsc --init(cria o tsconfig.json) ->>> yarn tsc(tsconfig.json ---> outDir: "./dist", )
+
+DEPENDENCIAS: express, apollo-server, graphql, type-graphql*
+
+DEV DEPENDENCIA: typescript, ts-node-dev, @types/XXXX
+	

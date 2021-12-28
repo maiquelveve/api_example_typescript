@@ -1,0 +1,22 @@
+{
+  "name": "typescript_graphql_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maiquelveve/typescript_graphql_api.git",
+  "author": "maiquelveve <maiquelveve2008@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
